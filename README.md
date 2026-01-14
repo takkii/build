@@ -12,4 +12,8 @@ set runtimepath+=~/Sample/deoplete-js
 set runtimepath+=~/Sample/deoplete-php
 ```
 
+※ polas利用版、deopleteプラグインです。
+
+(deoplete-elixir, deoplete-js, deoplete-php)
+
 更新履歴: 2026/01/15
