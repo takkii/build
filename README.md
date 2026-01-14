@@ -1,4 +1,4 @@
-### ビルド済み、パッケージ。
+### ビルド済み & パッケージ。
 
 ```markdown
 # sheltered-girl 4.0.7.2
@@ -18,4 +18,10 @@ set runtimepath+=~/build/deoplete-php
 
 (deoplete-elixir, deoplete-js, deoplete-php)
 
-更新履歴: 2026/01/15
+> 更新履歴: 2026/01/15
+
+※ 各プロジェクト内、ライセンスを遵守してください。
+
+```markdown
+Copyright © 2026 Team 'Red Eyes, Black Dragon.'
+```
