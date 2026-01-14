@@ -5,11 +5,13 @@
 heatコマンド、指定したフォルダ名を表示するようにしました。
 ```
 
+※ RubyGemsに公開してあります。
+
 ```vim
 " zipフォルダを解凍後、パスを.gvimrcなどに下記のようにつなぎます。
-set runtimepath+=~/Sample/deoplete-elixir
-set runtimepath+=~/Sample/deoplete-js
-set runtimepath+=~/Sample/deoplete-php
+set runtimepath+=~/build/deoplete-elixir
+set runtimepath+=~/build/deoplete-js
+set runtimepath+=~/build/deoplete-php
 ```
 
 ※ polas利用版、deopleteプラグインです。
