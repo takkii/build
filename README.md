@@ -14,7 +14,7 @@ set runtimepath+=~/build/deoplete-js
 set runtimepath+=~/build/deoplete-php
 ```
 
-※ polas利用版、deopleteプラグインです。
+※ polas利用版、deopleteプラグインです。どれも、[dict](https://github.com/takkii/dict)プロジェクトを利用します。
 
 (deoplete-elixir, deoplete-js, deoplete-php)
 
