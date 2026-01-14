@@ -16,7 +16,9 @@ set runtimepath+=~/build/deoplete-php
 
 ※ polas利用版、deopleteプラグインです。どれも、[dict](https://github.com/takkii/dict)プロジェクトを利用します。
 
-(deoplete-elixir, deoplete-js, deoplete-php)
+派生元[^1]: [deoplete-ruby2](https://github.com/takkii/deoplete-ruby2) (deoplete-elixir、deoplete-js、deoplete-php)
+
+[^1]: 依存ライブラリは派生元を参考にしてください。
 
 > 更新履歴: 2026/01/15
 
