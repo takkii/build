@@ -1,9 +1,15 @@
-### Sheltered-girl_build
-
-> ビルド済み、パッケージ。
+### ビルド済み、パッケージ。
 
 ```markdown
-4.0.7.2 指定したフォルダ名を表示するように追加しました。
+# sheltered-girl 4.0.7.2
+heatコマンド、指定したフォルダ名を表示するようにしました。
 ```
 
-更新履歴: 2026/01/14
+```vim
+" zipフォルダを解凍後、パスを.gvimrcなどに下記のようにつなぎます。
+set runtimepath+=~/Sample/deoplete-elixir
+set runtimepath+=~/Sample/deoplete-js
+set runtimepath+=~/Sample/deoplete-php
+```
+
+更新履歴: 2026/01/15
