@@ -1,8 +1,10 @@
 ### ビルド済み & パッケージ。
 
-※ アーカイブ化 & 公開した私のプロジェクトは、ある程度の技術力を必要とします。
+※ アーカイブ化 & 公開した私のプロジェクトは、
 
-_技術を理解できない方は利用を控えることを推奨します。_
+エンジニアレベル中級位の技術力を必要とします。
+
+_エンジニアレベルに達しない方は利用を控えることを推奨します。_
 
 ```markdown
 # sheltered-girl 4.0.7.2
@@ -22,6 +24,16 @@ set runtimepath+=~/build/deoplete-php
 
 ```markdown
 # 例
+git clone git@github.com:takkii/build.git
+cd build
+
+# ① rubyがインストールされている前提
+gem install sheltered-girl-4.0.7.2.gem
+cd ..
+
+# ② Rubygemsからも例、①と②どちらでもよい。
+gem install sheltered-girl
+
 mkdir Sample
 cd Sample
 heat branch dict takkii dict main
@@ -29,7 +41,7 @@ heat branch dict takkii dict main
 
 > 例、deoplete-elixir内diamond.py(48行目付近)、
 >
-> ~/Sample/ | ~/.vim/plugged/ | ~/.neovim/plugged/ を初期値で参照します。
+> ~/Sample/ ~/.vim/plugged/ ~/.neovim/plugged/ を初期値で参照します。
 
 _※ 利用目的に合わせてご自身で、参照先を変えてください。_
 
