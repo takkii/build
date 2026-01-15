@@ -23,7 +23,7 @@ cd Sample
 heat branch dict takkii dict main
 ```
 
-> deoplete-elixir内diamond.py(48行目付近)、
+> 例、deoplete-elixir内diamond.py(48行目付近)、
 >
 > ~/Sample/ | ~/.vim/plugged/ | ~/.neovim/plugged/ を初期値で参照します。
 
