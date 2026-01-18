@@ -42,7 +42,7 @@ _※ 利用目的に合わせてご自身で、dictプロジェクトの参照�
 > heat branch surfacevim takkii surfacevim main
 
 ```vim
-" zipフォルダを解凍後、.gvimrcに下記のように設定し繋ぎます
+" zipフォルダを解凍後 .gvimrc(149行目以降)に下記のように設定します。
 set runtimepath+=~/build/deoplete-elixir
 set runtimepath+=~/build/deoplete-js
 set runtimepath+=~/build/deoplete-php
