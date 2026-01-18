@@ -8,14 +8,7 @@ LICENSE)
 
 エンジニアレベル中級程度の技術力を必要とします。
 
-_エンジニアレベルに達しない方の利用を控えることを推奨します。_
-
-```markdown
-# sheltered-girl 4.0.7.2
-heatコマンド、指定したフォルダ名を表示するようにしました。
-```
-
-※ RubyGemsに公開してあります。
+_エンジニアレベルに達しない方の利用は控えることを推奨します。_
 
 ### 例えば、[surfacevim](https://github.com/takkii/surfacevim)で設定すると仮定します。
 
@@ -29,6 +22,9 @@ set runtimepath+=~/build/deoplete-php
 ※ polas利用版、deopleteプラグインです。どれも、[dict](https://github.com/takkii/dict)プロジェクトを利用します。
 
 ```markdown
+# sheltered-girl 4.0.7.2
+heatコマンド、指定したフォルダ名を表示するようにしました。
+
 # ① rubyがインストールされている前提
 git clone git@github.com:takkii/build.git
 cd build
