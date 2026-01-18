@@ -17,7 +17,7 @@ heatコマンド、指定したフォルダ名を表示するようにしまし�
 
 ※ RubyGemsに公開してあります。
 
-### [surfacevim](https://github.com/takkii/surfacevim)内で設定します。
+### 例えば、[surfacevim](https://github.com/takkii/surfacevim)で設定すると仮定します。
 
 ```vim
 " zipフォルダを解凍後、.gvimrcなどに下記のようにつなぎます。
