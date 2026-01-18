@@ -30,11 +30,10 @@ heat branch dict takkii dict main
 ```
 
 > deoplete-elixir/rplugin/python3/deoplete/sources/diamond.py
-> 
-> 48行目付近
->
 
-~/Sample/ ~/.vim/plugged/ ~/.neovim/plugged/ を初期値で参照します。
+[50行目](https://github.com/takkii/diamond/blob/main/rplugin/python3/deoplete/sources/diamond.py#L50)
+
+上記箇所を初期値で参照します。
 
 _※ 利用目的に合わせてご自身で、dictプロジェクトの参照先を変えてください。_
 
@@ -42,8 +41,10 @@ _※ 利用目的に合わせてご自身で、dictプロジェクトの参照�
 
 > heat branch surfacevim takkii surfacevim main
 
+### [.gvimrc](https://github.com/takkii/surfacevim/blob/main/.gvimrc#L149)
+
 ```vim
-" zipフォルダを解凍後 .gvimrc(149行目以降)に下記のように設定します。
+" zipフォルダを解凍後、下記のように設定します。
 set runtimepath+=~/build/deoplete-elixir
 set runtimepath+=~/build/deoplete-js
 set runtimepath+=~/build/deoplete-php
