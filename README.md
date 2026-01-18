@@ -49,7 +49,7 @@ set runtimepath+=~/build/deoplete-js
 set runtimepath+=~/build/deoplete-php
 ```
 
-[.vimrc](https://github.com/takkii/surfacevim/blob/main/.vimrc#L26)付近。
+### [.vimrc](https://github.com/takkii/surfacevim/blob/main/.vimrc#L26)
 
 箇所、takkii/diamond takkii/overlap takkii/grazeを削除する。
 
