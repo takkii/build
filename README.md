@@ -2,24 +2,13 @@
 License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](
 LICENSE)
 
-### ビルド済み & パッケージ。
+### ビルドプロジェクト(配布用)
 
 ※ アーカイブ化 & 公開した私のプロジェクトは、
 
 エンジニアレベル中級程度の技術力を必要とします。
 
-_エンジニアレベルに達しない方の利用は控えることを推奨します。_
-
-### 例えば、[surfacevim](https://github.com/takkii/surfacevim)で設定すると仮定します。
-
-```vim
-" zipフォルダを解凍後、.gvimrcなどに下記のようにつなぎます。
-set runtimepath+=~/build/deoplete-elixir
-set runtimepath+=~/build/deoplete-js
-set runtimepath+=~/build/deoplete-php
-```
-
-※ polas利用版、deopleteプラグインです。どれも、[dict](https://github.com/takkii/dict)プロジェクトを利用します。
+_エンジニアレベルに達しない方の利用は、控えることを推奨します。_
 
 ```markdown
 # sheltered-girl 4.0.7.2
@@ -40,11 +29,26 @@ cd Sample
 heat branch dict takkii dict main
 ```
 
-> dictプロジェクト設置パス: deoplete-elixir内diamond.py(48行目付近)、
->
+> deoplete-elixir/rplugin/python3/deoplete/sources/diamond.py
+> 
+> 48行目付近
+> 
 > ~/Sample/ ~/.vim/plugged/ ~/.neovim/plugged/ を初期値で参照します。
 
 _※ 利用目的に合わせてご自身で、dictプロジェクトの参照先を変えてください。_
+
+### 例えば、[surfacevim](https://github.com/takkii/surfacevim)で設定すると仮定します。
+
+> heat branch surfacevim takkii surfacevim main
+
+```vim
+" zipフォルダを解凍後、.gvimrcに下記のように設定し繋ぎます
+set runtimepath+=~/build/deoplete-elixir
+set runtimepath+=~/build/deoplete-js
+set runtimepath+=~/build/deoplete-php
+```
+
+※ polas利用版、deopleteプラグインです。どれも、[dict](https://github.com/takkii/dict)プロジェクトを利用します。
 
 派生元[^1]: [deoplete-ruby2](https://github.com/takkii/deoplete-ruby2) (deoplete-elixir、deoplete-js、deoplete-php)
 
