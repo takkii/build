@@ -32,8 +32,9 @@ heat branch dict takkii dict main
 > deoplete-elixir/rplugin/python3/deoplete/sources/diamond.py
 > 
 > 48行目付近
-> 
-> ~/Sample/ ~/.vim/plugged/ ~/.neovim/plugged/ を初期値で参照します。
+>
+
+~/Sample/ ~/.vim/plugged/ ~/.neovim/plugged/ を初期値で参照します。
 
 _※ 利用目的に合わせてご自身で、dictプロジェクトの参照先を変えてください。_
 
@@ -46,6 +47,17 @@ _※ 利用目的に合わせてご自身で、dictプロジェクトの参照�
 set runtimepath+=~/build/deoplete-elixir
 set runtimepath+=~/build/deoplete-js
 set runtimepath+=~/build/deoplete-php
+```
+
+[.vimrc](https://github.com/takkii/surfacevim/blob/main/.vimrc#L26)付近。
+
+箇所、takkii/diamond takkii/overlap takkii/grazeを削除する。
+
+```shell
+# 下記フォルダを削除 | ~/.neovim/plugged/
+rm -rf ~/.vim/plugged/diamond
+rm -rf ~/.vim/plugged/overlap
+rm -rf ~/.vim/plugged/graze
 ```
 
 ※ polas利用版、deopleteプラグインです。どれも、[dict](https://github.com/takkii/dict)プロジェクトを利用します。
