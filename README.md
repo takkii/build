@@ -69,6 +69,15 @@ rm -rf ~/.vim/plugged/graze
 
 ※ 各プロジェクト内、ライセンスを遵守してください。
 
+### UUID生成シェル
+
+```markdown
+# UNIX shell
+./uuid
+```
+
+※ uuidが生成されます。必要に応じて使用してください。
+
 ```markdown
 Copyright © 2026 Team 'Red Eyes, Black Dragon.'
 ```
