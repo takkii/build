@@ -72,11 +72,13 @@ rm -rf ~/.vim/plugged/graze
 ### UUID生成シェル
 
 ```markdown
-# UNIX shell
+# Example, UNIX ENV.
+git clone git@github.com:takkii/build.git
+cd build/shell
 ./uuid
 ```
 
-※ uuidが生成されます。必要に応じて使用してください。
+※ UNIXシェルを実行するとuuidを生成します。Windows環境などで、必要に応じて使用してください。
 
 ```markdown
 Copyright © 2026 Team 'Red Eyes, Black Dragon.'
